@@ -4,10 +4,10 @@ spring:
   application:
     name: api-movie
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/movie
     username: root
     password: luc@s190700Y
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
